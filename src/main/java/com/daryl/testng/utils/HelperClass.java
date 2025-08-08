@@ -13,7 +13,7 @@ public class HelperClass {
 
     private static HelperClass helperClass;
     private static WebDriver driver;
-    public final static int TIMEOUT = 10;
+    public final static int TIMEOUT = 5; // Reduced from 10 to 5 seconds for faster execution
 
     private HelperClass() {
         // Setup Chrome driver
@@ -32,7 +32,27 @@ public class HelperClass {
     }
 
     public static void openPage(String url) {
+        long startTime = System.currentTimeMillis();
+        PerformanceLogger.getInstance().startTask("Page Navigation: " + url);
+        
         driver.get(url);
+        
+        long loadTime = System.currentTimeMillis() - startTime;
+        String currentUrl = driver.getCurrentUrl();
+        String pageName = extractPageName(currentUrl);
+        
+        PerformanceLogger.getInstance().logPageLoad(pageName, currentUrl, loadTime);
+        PerformanceLogger.getInstance().endTask("Page Navigation: " + url);
+    }
+    
+    private static String extractPageName(String url) {
+        if (url.contains("exercise_result.php")) return "Test Result Page";
+        if (url.contains("exercise_submit.php")) return "Test Submit Page";
+        if (url.contains("exercise.php")) return "Test List Page";
+        if (url.contains("overview.php")) return "Test Overview Page";
+        if (url.contains("index.php")) return "Dashboard Page";
+        if (url.endsWith("/")) return "Login Page";
+        return "Unknown Page";
     }
 
     public static WebDriver getDriver() {

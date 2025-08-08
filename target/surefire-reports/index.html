@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Cucumber_Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Cucumber Test Suite</span>
+              <span class="suite-name border-passed">Cucumber Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Cucumber_Test_Suite" class="navigator-link ">
-                    <span>E:\Work\Automation Testing\testng.xml</span>
+                    <span>C:\Users\Hype G12\Selenium Chamilo\selenium\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,31 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Cucumber_Test_Suite" class="hide-methods failed suite-Cucumber_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Cucumber_Test_Suite -->
-                      <a href="#" panel-name="suite-Cucumber_Test_Suite" class="show-methods failed suite-Cucumber_Test_Suite"> (show)</a> <!-- show-methods failed suite-Cucumber_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Cucumber_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Test_Suite" title="com.daryl.testng.runner.CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Register with invalid credentials&quot;, &quot;Register to SmartEdu Application&quot;)">runScenario("Register with invalid credentials", "Register to SmartEdu Application")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Test_Suite" title="com.daryl.testng.runner.CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid credentials&quot;, &quot;Login to SmartEdu Application&quot;)">runScenario("Login with valid credentials", "Login to SmartEdu Application")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Test_Suite" title="com.daryl.testng.runner.CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Register with valid credentials&quot;, &quot;Register to SmartEdu Application&quot;)">runScenario("Register with valid credentials", "Register to SmartEdu Application")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Cucumber_Test_Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -127,7 +103,7 @@
                     <div class="method-list-content passed suite-Cucumber_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Test_Suite" title="com.daryl.testng.runner.CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Login with invalid credentials&quot;, &quot;Login to SmartEdu Application&quot;)">runScenario("Login with invalid credentials", "Login to SmartEdu Application")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Cucumber_Test_Suite" title="com.daryl.testng.runner.CucumberRunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid credentials and complete IQ Test&quot;, &quot;Login to SmartEdu Application&quot;)">runScenario("Login with valid credentials and complete IQ Test", "Login to SmartEdu Application")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Cucumber_Test_Suite -->
@@ -142,128 +118,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Cucumber_Test_Suite" class="panel Cucumber_Test_Suite">
-          <div class="suite-Cucumber_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.daryl.testng.runner.CucumberRunnerTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Register with invalid credentials&quot;, &quot;Register to SmartEdu Application&quot;)">
-                  </a> <!-- runScenario("Register with invalid credentials", "Register to SmartEdu Application") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Register with invalid credentials","Register to SmartEdu Application")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;User has navigated to the register page of SmartEdu app &quot;http://localhost:8080/register&quot;&apos; and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;User has navigated to the register page of SmartEdu app {string}&quot;)
-public void user_has_navigated_to_the_register_page_of_smart_edu_app(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;User enters existing username {string} and password {string}&quot;)
-public void user_enters_existing_username_and_password(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;User clicks on the register button&quot;)
-public void user_clicks_on_the_register_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;User should see notification message {string}&quot;)
-public void user_should_see_notification_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with valid credentials&quot;, &quot;Login to SmartEdu Application&quot;)">
-                  </a> <!-- runScenario("Login with valid credentials", "Login to SmartEdu Application") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with valid credentials","Login to SmartEdu Application")</span>
-                  <div class="stack-trace">io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in com.daryl.testng.definitions.LoginPageDefinitions.userHasOpenedTheBrowser() and com.daryl.testng.definitions.RegisterPageDefinitions.userHasOpenedTheBrowser()
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:313)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:307)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Register with valid credentials&quot;, &quot;Register to SmartEdu Application&quot;)">
-                  </a> <!-- runScenario("Register with valid credentials", "Register to SmartEdu Application") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Register with valid credentials","Register to SmartEdu Application")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;User has navigated to the register page of SmartEdu app &quot;http://localhost:8080/register&quot;&apos; and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;User has navigated to the register page of SmartEdu app {string}&quot;)
-public void user_has_navigated_to_the_register_page_of_smart_edu_app(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;User registers with username {string} and password {string}&quot;)
-public void user_registers_with_username_and_password(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;User clicks on the register button&quot;)
-public void user_clicks_on_the_register_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;User should see notification message {string}&quot;)
-public void user_should_see_notification_message(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Cucumber_Test_Suite-class-failed -->
           <div class="suite-Cucumber_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -272,10 +126,10 @@ public void user_should_see_notification_message(String string) {
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login with invalid credentials&quot;, &quot;Login to SmartEdu Application&quot;)">
-                  </a> <!-- runScenario("Login with invalid credentials", "Login to SmartEdu Application") -->
+                  <a name="runScenario(&quot;Login with valid credentials and complete IQ Test&quot;, &quot;Login to SmartEdu Application&quot;)">
+                  </a> <!-- runScenario("Login with valid credentials and complete IQ Test", "Login to SmartEdu Application") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with invalid credentials","Login to SmartEdu Application")</span>
+                  <span class="parameters">("Login with valid credentials and complete IQ Test","Login to SmartEdu Application")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -285,7 +139,7 @@ public void user_should_see_notification_message(String string) {
         </div> <!-- panel Cucumber_Test_Suite -->
         <div panel-name="test-xml-Cucumber_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Work\Automation Testing\testng.xml</span>
+            <span class="header-content">C:\Users\Hype G12\Selenium Chamilo\selenium\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -342,28 +196,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.daryl.testng.runner.CucumberRunnerTests')
-data.setCell(0, 3, 4309);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'com.daryl.testng.runner.CucumberRunnerTests')
-data.setCell(1, 3, 3137);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'com.daryl.testng.runner.CucumberRunnerTests')
-data.setCell(2, 3, 1717);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'runScenario')
-data.setCell(3, 2, 'com.daryl.testng.runner.CucumberRunnerTests')
-data.setCell(3, 3, 151);
+data.setCell(0, 3, 131372);
 window.suiteTableData['Cucumber_Test_Suite']= { tableData: data, tableDiv: 'times-div-Cucumber_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Cucumber_Test_Suite">
               </div> <!-- times-div-Cucumber_Test_Suite -->
             </div> <!-- times-div -->
@@ -391,34 +233,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.daryl.testng.runner.CucumberRunnerTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@2935fd2c)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@63300c4b)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login with valid credentials", "Login to SmartEdu Application")</span>
-                <span class="method-start">837 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Login with invalid credentials", "Login to SmartEdu Application")</span>
-                <span class="method-start">1008 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Register with valid credentials", "Register to SmartEdu Application")</span>
-                <span class="method-start">5318 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Register with invalid credentials", "Register to SmartEdu Application")</span>
-                <span class="method-start">8458 ms</span>
+                <span class="method-name">runScenario("Login with valid credentials and complete IQ Test", "Login to SmartEdu Application")</span>
+                <span class="method-start">1275 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">10178 ms</span>
+                <span class="method-start">132674 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,4 +1,3 @@
 com\daryl\testng\runner\CucumberRunnerTests.class
-com\daryl\testng\definitions\RegisterPageDefinitions.class
 com\daryl\testng\definitions\Hooks.class
 com\daryl\testng\definitions\LoginPageDefinitions.class

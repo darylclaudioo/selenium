@@ -1,0 +1,79 @@
+=== Performance Test Log Started ===
+Timestamp: 2025-08-08 11:08:34
+=====================================
+[START] Test Scenario: Login with valid credentials and complete IQ Test
+[2025-08-08 11:08:34] [INFO] Test Setup: Initializing WebDriver
+[2025-08-08 11:08:39] [INFO] Test Setup: WebDriver initialized successfully
+[START] Page Navigation: http://192.168.0.22/
+[PAGE] Login Page loaded in 1658 ms
+[COMPLETED] Page Navigation: http://192.168.0.22/ - 1683 ms
+[2025-08-08 11:08:42] [RESPONSE] Login Button - 303 ms
+[2025-08-08 11:08:49] [RESPONSE] Tests Button - 2146 ms
+[2025-08-08 11:08:51] [RESPONSE] IQ Test Link - 2029 ms
+[2025-08-08 11:08:54] [RESPONSE] Proceed with Test Button - 2283 ms
+[2025-08-08 11:08:54] [INFO] Test Status: Starting test questions
+[2025-08-08 11:08:55] [Q1] Question Type: Essay - Textarea elements found: 1
+[2025-08-08 11:08:55] [Q1] Essay question answered in 535 ms
+[2025-08-08 11:08:55] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:09:00] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:09:00] [STEP] Navigation Decision: Proceeding to next question (Q1 → Q2)
+[2025-08-08 11:09:00] [RESPONSE] Next Question Button (Q1→Q2) - 265 ms
+[2025-08-08 11:09:01] [Q2] Question Type: Essay - Textarea elements found: 1
+[2025-08-08 11:09:01] [Q2] Essay question answered in 653 ms
+[2025-08-08 11:09:01] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:09:06] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:09:06] [STEP] Navigation Decision: Proceeding to next question (Q2 → Q3)
+[2025-08-08 11:09:07] [RESPONSE] Next Question Button (Q2→Q3) - 250 ms
+[2025-08-08 11:09:12] [Q3] Question Type: Multiple Choice - Radio button options: 5
+[2025-08-08 11:09:12] [Q3] Multiple Choice question answered in 5283 ms
+[2025-08-08 11:09:12] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:09:17] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:09:17] [STEP] Navigation Decision: Proceeding to next question (Q3 → Q4)
+[2025-08-08 11:09:17] [RESPONSE] Next Question Button (Q3→Q4) - 260 ms
+[2025-08-08 11:09:23] [Q4] Question Type: Multiple Choice - Radio button options: 5
+[2025-08-08 11:09:23] [Q4] Multiple Choice question answered in 5269 ms
+[2025-08-08 11:09:23] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:09:28] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:09:28] [STEP] Navigation Decision: Proceeding to next question (Q4 → Q5)
+[2025-08-08 11:09:28] [RESPONSE] Next Question Button (Q4→Q5) - 186 ms
+[2025-08-08 11:09:34] [Q5] Question Type: Multiple Choice - Radio button options: 5
+[2025-08-08 11:09:34] [Q5] Multiple Choice question answered in 5253 ms
+[2025-08-08 11:09:34] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:09:39] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:09:39] [STEP] Navigation Decision: Proceeding to next question (Q5 → Q6)
+[2025-08-08 11:09:39] [RESPONSE] Next Question Button (Q5→Q6) - 298 ms
+[2025-08-08 11:09:50] [Q6] Question Type: Unknown - No recognizable question elements found
+[2025-08-08 11:09:50] [Q6] Unknown question answered in 10057 ms
+[2025-08-08 11:09:50] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:09:55] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:09:55] [STEP] Navigation Decision: Proceeding to next question (Q6 → Q7)
+[2025-08-08 11:09:55] [RESPONSE] Next Question Button (Q6→Q7) - 260 ms
+[2025-08-08 11:10:06] [Q7] Question Type: Unknown - No recognizable question elements found
+[2025-08-08 11:10:06] [Q7] Unknown question answered in 10132 ms
+[2025-08-08 11:10:06] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:10:11] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:10:11] [STEP] Navigation Decision: Proceeding to next question (Q7 → Q8)
+[2025-08-08 11:10:11] [RESPONSE] Next Question Button (Q7→Q8) - 236 ms
+[2025-08-08 11:10:21] [Q8] Question Type: Unknown - No recognizable question elements found
+[2025-08-08 11:10:21] [Q8] Unknown question answered in 10089 ms
+[2025-08-08 11:10:21] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:10:26] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:10:26] [STEP] Navigation Decision: Proceeding to next question (Q8 → Q9)
+[2025-08-08 11:10:27] [RESPONSE] Next Question Button (Q8→Q9) - 292 ms
+[2025-08-08 11:10:31] [Q9] Question Type: Essay - Textarea elements found: 1
+[2025-08-08 11:10:31] [Q9] Essay question answered in 3803 ms
+[2025-08-08 11:10:31] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:10:36] [STEP] Button Status: Next: true, End: false
+[2025-08-08 11:10:36] [STEP] Navigation Decision: Proceeding to next question (Q9 → Q10)
+[2025-08-08 11:10:36] [RESPONSE] Next Question Button (Q9→Q10) - 231 ms
+[2025-08-08 11:10:37] [Q10] Question Type: Essay - Textarea elements found: 1
+[2025-08-08 11:10:37] [Q10] Essay question answered in 572 ms
+[2025-08-08 11:10:37] [STEP] Navigation Check: Checking for Next/End test buttons
+[2025-08-08 11:10:40] [STEP] Button Status: Next: true, End: true
+[2025-08-08 11:10:40] [STEP] Navigation Decision: End test button found - completing test
+[2025-08-08 11:10:40] [RESPONSE] End Test Button - 247 ms
+[2025-08-08 11:10:41] [INFO] Test Completion: Completed 10 questions
+[2025-08-08 11:10:44] [INFO] Test Teardown: Scenario Status: PASSED
+[2025-08-08 11:10:44] [INFO] Test Teardown: Closing WebDriver
+[COMPLETED] Test Scenario: Login with valid credentials and complete IQ Test - 130431 ms
+=== Performance Test Log Ended ===

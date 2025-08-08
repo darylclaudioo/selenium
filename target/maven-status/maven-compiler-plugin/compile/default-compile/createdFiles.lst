@@ -1,5 +1,4 @@
 com\daryl\testng\locators\LoginPageLocators.class
-com\daryl\testng\locators\RegisterPageLocators.class
 com\daryl\testng\utils\HelperClass.class
-com\daryl\testng\actions\RegisterPageActions.class
+com\daryl\testng\utils\PerformanceLogger.class
 com\daryl\testng\actions\LoginPageActions.class

@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Tag: @ValidCredentials</title>
+<title>Cucumber Reports (no 1) - Tag: @ValidCredentialsAndCompleteIQTest</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber Reporting Example</td>
         <td>1</td>
-      <td>31 Jul 2025, 11:59</td>
+      <td>08 Aug 2025, 11:31</td>
     </tr>
   </tbody>
 </table>
@@ -128,20 +128,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">@ValidCredentials</td>
+          <td class="tagname">@ValidCredentialsAndCompleteIQTest</td>
+          <td      class="passed"    >11</td>
           <td >0</td>
           <td >0</td>
-          <td     class="skipped"   >3</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">3</td>
+          <td class="total">11</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="0">0.000</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="124441711400">2:4.441</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -173,24 +173,24 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_1_1635116333.html">Register to SmartEdu Application</a>
+      <a href="report-feature_3970567371.html">Login to SmartEdu Application</a>
     </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_284256703.html">@ValidCredentials</a>
+       <a href="report-tag_2255544361.html">@ValidCredentialsAndCompleteIQTest</a>
 </div>
 
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">2:4.441</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Register with valid credentials</span>
+  <span class="name">Login with valid credentials and complete IQ Test</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -199,7 +199,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -219,9 +219,9 @@ $(document).ready(function() {
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-              <span class="location name">com.daryl.testng.definitions.Hooks.setUp()</span>
+              <span class="location name">com.daryl.testng.definitions.Hooks.setUp(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">2.764</span>
+  <span class="lead-duration duration">3.889</span>
 
           </div>
 
@@ -238,9 +238,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -250,15 +250,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">User registers with username &quot;daryl&quot; and password &quot;daryl&quot;</span>
+  <span class="name">User enters username <span class="argument">&quot;s1&quot;</span> and password <span class="argument">&quot;Student.01&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.434</span>
 
 </div>
 
@@ -281,11 +281,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">User clicks on the register button</span>
+  <span class="name">User clicks on the login button</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">5.286</span>
 
 </div>
 
@@ -308,11 +308,227 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">User should see notification message &quot;Registrasi berhasil untuk daryl&quot;</span>
+  <span class="name">User should be directed to the dashboard page</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.214</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">User clicks on the Tests button</span>
+
+  <span class="lead-duration duration">1.979</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User should be directed to the Tests page</span>
+
+  <span class="lead-duration duration">0.057</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">User clicks on <span class="argument">&quot;IQ test&quot;</span> from the test list</span>
+
+  <span class="lead-duration duration">2.404</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User should be directed to the test overview page</span>
+
+  <span class="lead-duration duration">0.040</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">User clicks on <span class="argument">&quot;Start Test&quot;</span> button</span>
+
+  <span class="lead-duration duration">3.185</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User should be directed to the test execution page</span>
+
+  <span class="lead-duration duration">0.014</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">User answers all questions in the test</span>
+
+  <span class="lead-duration duration">1:46.678</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">User should be directed to the test result page</span>
+
+  <span class="lead-duration duration">3.145</span>
 
 </div>
 
@@ -355,9 +571,9 @@ $(document).ready(function() {
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-              <span class="location name">com.daryl.testng.definitions.Hooks.tearDown()</span>
+              <span class="location name">com.daryl.testng.definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.303</span>
+  <span class="lead-duration duration">0.771</span>
 
           </div>
 
